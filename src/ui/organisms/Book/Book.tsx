@@ -92,9 +92,18 @@ export const Book = () => {
 					}}
 					onFlip={(e) => {
 						setCurrentPage(e?.object?.pages?.currentPageIndex);
-
 					}}
-
+					startPage={0}
+					style={{}}
+					usePortrait={true}
+					autoSize={true}
+					clickEventForward={false}
+					startZIndex={0}
+					maxShadowOpacity={0}
+					useMouseEvents={true}
+					swipeDistance={0}
+					disableFlipByClick={false}
+					showPageCorners={true}
 				>
 					<BookCover currentPage={currentPage} />
 					{pagesData.map((page) => {

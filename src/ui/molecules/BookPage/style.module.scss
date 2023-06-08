@@ -1,12 +1,3 @@
-.page {
-	// border-top: 16px solid linear-gradient(90deg, #1F3F16 0%, #70861E 15%, #819929 34%, #1F3F16 42.19%, #2F5824 45.31%, #3A722A 49.47%, #29561C 55%, #7EB56F 68%, #70861E 83%, #1F3F16 99.99%);
-}
-// .outer_wrapper {
-// 	background-image: url('/book_green_bg.png');
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	height: 100%;
-// }
 .inner_wrapper {
 	position: relative;
 	height: 100%;
@@ -24,7 +15,6 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	// background: linear-gradient(90deg, #1F3F16 0%, #70861E 15%, #819929 34%, #1F3F16 42.19%, #2F5824 45.31%, #3A722A 49.47%, #29561C 55%, #7EB56F 68%, #70861E 83%, #1F3F16 99.99%);;
 }
 .title {
 	font-weight: 400;
