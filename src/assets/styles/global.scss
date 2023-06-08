@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	min-width: 100vw;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+#root {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: url('/bg_main.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+button {
+	background: none;
+}

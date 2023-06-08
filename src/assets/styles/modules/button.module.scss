@@ -1,0 +1,29 @@
+@mixin navButton($bgImg, $color) {
+	width: 48px;
+	height: 48px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid $color;
+	border-radius: 50%;
+	
+
+	& > div {
+		width: 32px;
+		height: 32px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url($bgImg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+};
+
+.navButtonLeftWhite {
+	@include navButton('/button_bg.png', #FAECD1);
+}
+.navButtonRightOrange {
+	@include navButton('/button_bg_orange.png',#FFCA2B);
+	transform: rotate(180deg);
+}
